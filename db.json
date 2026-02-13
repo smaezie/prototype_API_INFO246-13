@@ -1,0 +1,58 @@
+{
+    "items": [
+        {
+            "@context": "https://schema.org",
+            "@type": "Thing",
+            "id": "1",
+            "name": "Excalibur",
+            "description": "Longsword symbolizing divine right to rule, power, and justice in Arthurian lore"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Thing",
+            "id": "2",
+            "name": "Lightsaber",
+            "description": "A lightsaber is a fictional energy sword featured throughout Star Wars."
+        },
+                {
+            "@context": "https://schema.org",
+            "@type": "Thing",
+            "id": "3",
+            "name": "Mjolnir ",
+            "description": "Mjölnir is the hammer of the thunder god Thor in Norse mythology, used both as a devastating weapon and as a divine instrument to provide blessings."
+        }
+    ],
+    "users": [
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "id": "1",
+            "name": "King Arthur",
+            "description": "King Arthur was a legendary king of Britain. He is a folk hero and a central figure in the medieval literary tradition known as the Matter of Britain.",
+            "itemId": "1"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "id": "2",
+            "name": "Obi Wan Kenobi",
+            "description": "Obi-Wan Kenobi is a wise, and compassionate Jedi Master in the Star Wars universe, acting as a pivotal mentor to Anakin and Luke Skywalker.",
+            "itemId": "2"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "id": "3",
+            "name": "Thor",
+            "description": "Thor is the prominent Norse god of thunder, lightning, storms, and fertility, acting as the fierce protector of Asgard (gods) and Midgard (humans).",
+            "itemId": "3"
+        }        
+    ],
+    "collection": {
+        "@context": "https://schema.org/",
+        "@type": "Collection",
+        "name": "Sarah Zareski's API",
+        "creator": "SarahZareski",
+        "about": "A collection of weapons and their corresponding warriors."
+    }
+}
